@@ -1,6 +1,5 @@
 :root {
     --green-color: hsl(75, 94%, 57%); 
-    --grey-900: hsl(0, 0%, 8%)
 }
 
 * {
@@ -61,10 +60,6 @@ body {
     background-color: #333333;
 }
 
-.social-links a {
-    text-decoration: none;
-    color: #fff;
-}
 
 .social-links:hover {
     cursor: pointer;
@@ -72,15 +67,8 @@ body {
     background-color: var(--green-color);
 }
 
-.social-links:hover a {
-    color: #000;
-}
 
 .social-links.active {
     background-color: var(--green-color);
     color: black;
-}
-
-.social-links.active a {
-    color: #000;
 }
